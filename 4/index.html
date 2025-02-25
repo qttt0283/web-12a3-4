@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>hello weeeeeee r g4</title>
+
+    <!--link-css-->
+    <link rel="stylesheet" href="/4/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <a href="#introbg" class="namebrand">g4</a>
+        <nav id="navbar">
+            <a href="#info" class="active">Info</a>
+            <a href="#comment">Comment</a>
+        </nav>
+    </header>
+    <section id="introbg">
+        <div class="introo" id="intro">
+            
+            <h1>Hi there!</h1>
+            <p>Welcome to my group (4)</p>
+            <p>Who are they?</p>
+                
+                
+        </div>
+    </section>
+    <section id="info">
+        <div class="info-ct">
+            <div class="text-content">
+                <audio controls autoplay>
+                    <source src="/4/assets/audio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <h1>Đây là đâu?</h1>
+                <p>Đây là góc nhỏ nơi chúng mình cùng chia sẻ những câu chuyện vui, buồn, những khoảnh khắc đáng nhớ và cả những cảm xúc ngọt ngào lẫn giận hờn. Mỗi bức ảnh, mỗi dòng chữ ở đây đều là một phần ký ức mà chúng mình muốn lưu giữ, để sau này nhìn lại vẫn có thể mỉm cười vì đã từng có những ngày tháng tuyệt vời như thế. 💖</p>
+                <p class="pd-top">mọi bài viết đều được up ở</p>
+
+                <button class="fb-button"><a href="">Facebook <i class="fab fa-facebook-f"></i></a></button>
+            </div>
+            <div class="img-gallery">
+                <img src="/4/assets/img/1.jpg" alt="Image 1" onclick="openModal(this)">
+                <img src="/4/assets/img/2.jpg" alt="Image 2" onclick="openModal(this)">
+                <img src="/4/assets/img/3.jpg" alt="Image 3" onclick="openModal(this)">
+                <img src="/4/assets/img/4.jpg" alt="Image 4" onclick="openModal(this)">
+                <img src="/4/assets/img/5.jpg" alt="Image 5" onclick="openModal(this)">
+                <img src="/4/assets/img/6.jpg" alt="Image 6" onclick="openModal(this)">
+            </div>
+        </div>
+    </section>
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+    <section id="comment">
+        <div class="comment-section">
+            <h2>💬 Góc Bình Luận</h2>
+            <form id="commentForm">
+                <div class="comment-box">
+                    <textarea id="commentInput" placeholder="Nhập bình luận của bạn..." required></textarea>
+                    <button type="submit">Gửi</button>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 g3. Tất cả các quyền được bảo lưu.</p>
+        <p>contact me: qtung.07.dt@gmail.com</p>
+        <p>updated (25/2/2025)</p>
+    </footer>
+
+    
+    <script src="/4/assets/js/script.js"></script>
+    <script src="/4/assets/js/smooth-scroll.js"></script>
+</body>
+</html>

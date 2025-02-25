@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>hello weeeeeee r g1</title>
+
+    <!--link-css-->
+    <link rel="stylesheet" href="/1/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <a href="#introbg" class="namebrand">g1</a>
+        <nav id="navbar">
+            <a href="#info" class="active">Info</a>
+            <a href="#comment">Comment</a>
+        </nav>
+    </header>
+    <section id="introbg">
+        <div class="introo" id="intro">
+            
+            <h1>Hi there!</h1>
+            <p>Chúng mình là ai?</p>
+            <p>Hãy cùng tìm hiểu xem...</p>
+            <h6>play this music n scroll down to more info*</h4>
+                <audio controls>
+                    <source src="/1/assets/audio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                
+        </div>
+    </section>
+    <section id="info">
+        <div class="info-ct">
+            <div class="text-content">
+                <h1>Đây là đâu?</h1>
+                <p>đây là nơi chúng mình chia sẻ những câu chuyện khá thú vị=))))))))))))</p>
+                <p class="pd-top">Facebook của chúng mình tại đây</p>
+
+                <button class="fb-button"><a href="">Facebook <i class="fab fa-facebook-f"></i></a></button>
+            </div>
+            <div class="img-gallery">
+                <img src="/1/assets/img/1.jpg" alt="Image 1" onclick="openModal(this)">
+                <img src="/1/assets/img/2.jpg" alt="Image 2" onclick="openModal(this)">
+                <img src="/1/assets/img/3.jpg" alt="Image 3" onclick="openModal(this)">
+                <img src="/1/assets/img/4.jpg" alt="Image 4" onclick="openModal(this)">
+                
+            </div>
+            
+        </div>
+        <div class="video-preview">
+                <video controls>
+                    <source src="/1/assets/img/5.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ video.
+                </video>
+            </div>
+    </section>
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+    <section id="comment">
+        <div class="comment-section">
+            <h2>💬 Góc Bình Luận</h2>
+            <form id="commentForm">
+                <div class="comment-box">
+                    <textarea id="commentInput" placeholder="Nhập bình luận của bạn..." required></textarea>
+                    <button type="submit">Gửi</button>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 g1. Tất cả các quyền được bảo lưu.</p>
+        <p>contact me: qtung.07.dt@gmail.com</p>
+        <p>updated (25/2/2025)</p>
+    </footer>
+
+    
+    <script src="/1/assets/js/script.js"></script>
+    <script src="/1/assets/js/smooth-scroll.js"></script>
+</body>
+</html>
